@@ -96,3 +96,25 @@ body {
 .cards:hover .recipe-info {
   opacity: 1;
 }
+
+.recipe-btn {
+  background: transparent;
+  margin-top: 1.5rem;
+  height: 2rem;
+  width: 5.5rem;
+  border: 2px solid #fff;
+  color: #fff;
+  font-family: var(--font-family);
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.recipe-btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.recipe-title {
+  font-size: 2rem;
+}
