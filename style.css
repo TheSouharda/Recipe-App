@@ -150,16 +150,32 @@ body {
 
 .popup-card .food-img {
   z-index: 2;
-  background-color: #212b4e;
+  background: brown;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 45%;
+  height: 90%;
+  transform: translateY(25px);
+  border-top-left-radius: 10px;
 }
 
 .popup-card .food-img img {
   z-index: 4;
   position: relative;
-  width: 450px;
+  width: var(--cards-width);
+  height: var(--cards-height);
+  left: 30px;
+  margin-top: 2rem;
+}
+.popup-card .food-info {
+  z-index: 4;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  font: 100%;
+  padding: 40px;
+  border-radius: 10px;
 }
