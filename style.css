@@ -9,8 +9,8 @@
 }
 
 :root {
-  --card-width: 300px;
-  --card-height: 360px;
+  --cards-width: 300px;
+  --cards-height: 360px;
   --body-bg: #212b4e;
   --font-color: #fff;
   --font-family: "Poppins", sans-serif;
@@ -41,8 +41,8 @@ body {
 }
 
 .cards {
-  height: var(--card-height);
-  width: var(--card-width);
+  height: var(--cards-height);
+  width: var(--cards-width);
   background-color: var(--font-color);
   display: flex;
   border-radius: 15px;

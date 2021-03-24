@@ -5,12 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script
+      defer
+      src="https://kit.fontawesome.com/354967ed78.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Recipe App</title>
   </head>
   <body>
     <div class="container">
-      <div class="cards">
-        <div class="card-normal">
+      <div class="card">
+        <div class="cards">
           <img src="./images/Biryani.jpg" alt="" class="recipe-img" />
           <div class="recipe-info">
             <h2 class="recipe-title">Biryani</h2>
@@ -18,25 +23,42 @@
             <button class="recipe-btn">Read More</button>
           </div>
         </div>
+        <div class="popup-view">
+          <div class="popup-card">
+            <a href=""><i class="fas fa-times"></i></a>
+            <div class="foot-img">
+              <img src="./images/Biryani.jpg" alt="" />
+            </div>
+            <div class="food-info">
+              <h2>Biryani</h2>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Delectus cumque maiores ex sit eaque minima. Lorem ipsum dolor
+                sit amet consectetur adipisicing elit. Libero, quidem.
+              </p>
+              <button><a href="">Visit Site</a></button>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="cards">
-        <div class="cardnormL">
+      <!-- <div class="card">
+        <div class="cards">
           <img src="./images/lasagna.jpg" alt="" class="recipe-img" />
           <div class="recipe-info">
             <h2 class="recipe-title">Lasagna</h2>
             <button class="recipe-btn">Read More</button>
           </div>
         </div>
-      </div>
-      <div class="cards">
-        <div class="card-normal">
+      </div> -->
+      <!-- <div class="card">
+        <div class="cards">
           <img src="./images/STEAK.jpg" alt="" class="recipe-img" />
           <div class="recipe-info">
             <h2 class="recipe-title">Steak</h2>
             <button class="recipe-btn">Read More</button>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </body>
 </html>
