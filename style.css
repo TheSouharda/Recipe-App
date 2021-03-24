@@ -158,7 +158,6 @@ body {
   width: 45%;
   height: 90%;
   transform: translateY(25px);
-  border-top-left-radius: 10px;
 }
 
 .popup-card .food-img img {
@@ -168,6 +167,8 @@ body {
   height: var(--cards-height);
   left: 30px;
   margin-top: 2rem;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 .popup-card .food-info {
   z-index: 4;
@@ -178,4 +179,14 @@ body {
   font: 100%;
   padding: 40px;
   border-radius: 10px;
+}
+
+.close {
+  position: absolute;
+  color: #000;
+  z-index: 5;
+  right: 0;
+  font-size: 20px;
+  margin: 20px;
+  cursor: pointer;
 }
