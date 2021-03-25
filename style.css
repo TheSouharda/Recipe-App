@@ -202,6 +202,13 @@ body {
 .line_br {
   width: 100%;
   height: 0.3px;
-
   background-color: rgba(128, 128, 128, 0.342);
+}
+
+.food-details {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+  background-color: aqua;
 }
