@@ -221,6 +221,12 @@ body {
 }
 .time {
   float: right;
-  font-size: 1.5rem;
-  margin-bottom: 0.2rem;
+  font-size: 1.7rem;
+  margin-left: 0.5rem;
+}
+
+.mean-text {
+  text-transform: capitalize;
+  font-size: 1rem;
+  text-align: center;
 }
