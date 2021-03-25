@@ -175,12 +175,12 @@ body {
 }
 .popup-card .food-info {
   z-index: 4;
-  background: #fff;
+  background: var(--font-color);
   display: flex;
   flex-direction: column;
   width: 55%;
   font: 100%;
-  padding: 40px;
+  padding: 3rem 2rem;
   border-radius: 10px;
 }
 
