@@ -212,5 +212,15 @@ body {
   align-items: center;
   justify-content: space-around;
   margin-bottom: 1rem;
-  background-color: aqua;
+  /* background-color: aqua; */
+}
+
+.detail i {
+  display: inline-block;
+  color: var(--body-bg);
+}
+.time {
+  float: right;
+  font-size: 1.5rem;
+  margin-bottom: 0.2rem;
 }
