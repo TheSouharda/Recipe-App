@@ -140,6 +140,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.popup-view.active {
+  visibility: visible;
+  opacity: 1;
 }
 
 .popup-card {
@@ -308,5 +315,9 @@ body {
   }
   .visit {
     margin-top: 1rem;
+  }
+
+  .popup-card .close {
+    color: var(--font-color);
   }
 }
