@@ -278,6 +278,15 @@ body {
 /* ? Responsive styles */
 
 @media (max-width: 900px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .card {
+    margin-bottom: 2em;
+  }
   .popup-card {
     flex-direction: column;
     align-items: center;
