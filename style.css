@@ -303,4 +303,10 @@ body {
     border-top-right-radius: 0;
     border-top-left-radius: 0;
   }
+  .line_br {
+    margin-bottom: 2rem;
+  }
+  .visit {
+    margin-top: 1rem;
+  }
 }
