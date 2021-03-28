@@ -60,7 +60,9 @@ const generateFn = (results) => {
     </li>
     </ul>
     
-    <button class="visit"><a href="#">Visit Site</a></button>
+    <button class="visit"><a href="${
+      result.recipe.url
+    }" target="_blank">Visit Site</a></button>
     </div>
     </div>
     </div>
