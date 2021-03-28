@@ -11,7 +11,7 @@ form.addEventListener("submit", (e) => {
 });
 
 const fetchAPI = async () => {
-  const baseURL = `https://api.edamam.com/search?q=lasagna&app_id=${APP_ID}&app_key=${APP_key}&to=5`;
+  const baseURL = `https://api.edamam.com/search?q=lasagna&app_id=${APP_ID}&app_key=${APP_key}&to=8`;
 
   const response = await fetch(baseURL);
   console.log(response);
@@ -66,6 +66,9 @@ const generateFn = (results) => {
     </div>`;
   });
   container.innerHTML = html;
+
+  //! render html stuff happens
+
   const closeBtn = document.querySelectorAll(".close");
   const popUp = document.querySelectorAll(".popup-view");
   const recipeBtn = document.querySelectorAll(".recipe-btn");
@@ -80,8 +83,9 @@ const generateFn = (results) => {
     };
     closeBtn.forEach((el, i) => {
       el.addEventListener("click", () => {
-        console.log("hello");
-        popShow(i);
+        popUp.forEach((el) => {
+          el.classList.remove("active");
+        });
       });
     });
   });

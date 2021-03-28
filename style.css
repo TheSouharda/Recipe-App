@@ -72,15 +72,18 @@ form {
 }
 
 .container {
-  width: 100%;
+  width: 90%;
+  height: auto;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .cards {
   height: var(--cards-height);
   width: var(--cards-width);
+  margin: 1rem;
   background-color: var(--font-color);
   display: flex;
   border-radius: 15px;
